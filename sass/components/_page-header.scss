@@ -1,55 +1,16 @@
-.header-section {
+.header {
   border-bottom: 1px solid #ececec;
-
-  &__list {
-    display: flex;
-    margin-left: 93px;
-  }
-  &__item {
-    margin-right: 50px;
-
-    &:last-child {
-      margin-right: 0;
-    }
-  }
-  &__link {
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
-
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-
-    &--current {
-      position: relative;
-
-      color: $accent-color;
-    }
-    &--current::after {
-      content: '';
-      display: inline-block;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-
-      width: 100%;
-      height: 4px;
-
-      background-color: $accent-color;
-      border-radius: 2px;
-    }
-    &:hover,
-    &:focus {
-      color: $accent-color;
-    }
-  }
-  &__contact-list {
-    margin-left: auto;
-  }
 }
-.container--header {
+
+.header__site-nav {
+  margin-left: 93px;
+}
+
+.header__contact-list {
+  margin-left: auto;
+}
+
+.container__header {
   display: flex;
   align-items: center;
 }

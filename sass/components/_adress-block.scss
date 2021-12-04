@@ -1,32 +1,30 @@
-.adress {
-  &__item {
-    margin-bottom: 9px;
+.adress__item {
+  margin-bottom: 9px;
 
-    &:last-child {
-      margin-bottom: 0;
-    }
+  &:last-child {
+    margin-bottom: 0;
   }
-  &__link {
-    display: block;
+}
+.adress__link {
+  display: block;
 
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: $primary-background;
+
+  &--main {
     color: $primary-background;
+  }
 
-    &--main {
-      color: $primary-background;
-    }
+  &--add {
+    color: $primary-background;
+  }
 
-    &--add {
-      color: $primary-background;
-    }
-
-    &:hover,
-    &:focus {
-      color: $accent-color;
-    }
+  &:hover,
+  &:focus {
+    color: $accent-color;
   }
 }
